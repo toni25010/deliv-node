@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/DeliV_bg.qm</file>
+        <file alias="ca">locale/DeliV_ca.qm</file>
+        <file alias="cs">locale/DeliV_cs.qm</file>
+        <file alias="da">locale/DeliV_da.qm</file>
+        <file alias="de">locale/DeliV_de.qm</file>
+        <file alias="en">locale/DeliV_en.qm</file>
+        <file alias="en_US">locale/DeliV_en_US.qm</file>
+        <file alias="es">locale/DeliV_es.qm</file>
+        <file alias="fi">locale/DeliV_fi.qm</file>
+        <file alias="fr_FR">locale/DeliV_fr_FR.qm</file>
+        <file alias="hr">locale/DeliV_hr.qm</file>
+        <file alias="it">locale/DeliV_it.qm</file>
+        <file alias="ja">locale/DeliV_ja.qm</file>
+        <file alias="ko_KR">locale/DeliV_ko_KR.qm</file>
+        <file alias="nl">locale/DeliV_nl.qm</file>
+        <file alias="pl">locale/DeliV_pl.qm</file>
+        <file alias="pt">locale/DeliV_pt.qm</file>
+        <file alias="pt_BR">locale/DeliV_pt_BR.qm</file>
+        <file alias="ro_RO">locale/DeliV_ro_RO.qm</file>
+        <file alias="ru">locale/DeliV_ru.qm</file>
+        <file alias="sk">locale/DeliV_sk.qm</file>
+        <file alias="sv">locale/DeliV_sv.qm</file>
+        <file alias="tr">locale/DeliV_tr.qm</file>
+        <file alias="uk">locale/DeliV_uk.qm</file>
+        <file alias="zh_CN">locale/DeliV_zh_CN.qm</file>
+        <file alias="zh_TW">locale/DeliV_zh_TW.qm</file>
+    </qresource>
+</RCC>

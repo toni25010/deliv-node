@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DeliV
+Comment=DeliV P2P Cryptocurrency
+Comment[fr]=DeliV, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=DeliV, eşten eşe kriptografik sanal para birimi
+Exec=DeliV-qt %u
+Terminal=false
+Type=Application
+Icon=DeliV128
+MimeType=x-scheme-handler/DeliV;
+Categories=Office;Finance;

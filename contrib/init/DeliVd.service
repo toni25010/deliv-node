@@ -1,0 +1,26 @@
+[Unit]
+Description=DeliV's distributed currency daemon
+After=network.target
+
+[Service]
+User=DeliV
+Group=DeliV
+
+Type=forking
+PIDFile=/var/lib/DeliVd/DeliVd.pid
+
+ExecStart=/usr/bin/DeliVd -daemon -pid=/var/lib/DeliVd/DeliVd.pid \
+          -conf=/etc/DeliV/DeliV.conf -datadir=/var/lib/DeliVd
+
+ExecStop=-/usr/bin/DeliV-cli -conf=/etc/DeliV/DeliV.conf \
+         -datadir=/var/lib/DeliVd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
